@@ -369,7 +369,7 @@
 
     // getPublicKey().then(console.log);
 
-    btnDesactivada.addEventListener('click', async function () {
+    btnDesactivada.addEventListener('click', function () {
         
         if (!swReg) return console.error('No hay registro de Service Worker');
         getPublicKey().then(key => {
