@@ -150,7 +150,7 @@ var swReg;
 addEventListener('DOMContentLoaded', () => {
 
     if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('../sw.js').then(function (reg) {
+        navigator.serviceWorker.register('/mascotas-pwa/sw.js').then(function (reg) {
             swReg = reg;
             swReg.pushManager.getSubscription().then(verificarSuscripcion);
         });
