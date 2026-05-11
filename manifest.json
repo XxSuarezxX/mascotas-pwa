@@ -21,8 +21,8 @@
   "lang": "es-419",
   "name": "Sistema animales",
   "short_name": "Sistema animales",
-  "start_url": "./index.html",
-  "scope": "/",
+  "start_url": "/mascotas-pwa/index.html",
+  "scope": "/mascotas-pwa/",
   "description": "Censo de animales taller",
   "id": "/"
 }
